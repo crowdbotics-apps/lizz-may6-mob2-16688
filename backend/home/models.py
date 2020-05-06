@@ -47,3 +47,8 @@ class Message(models.Model):
         on_delete=models.CASCADE,
         related_name="message_inbox",
     )
+
+
+class Test(models.Model):
+    "Generated Model"
+    test = models.BigIntegerField()
